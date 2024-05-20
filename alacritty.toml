@@ -1,0 +1,38 @@
+[font]
+size = 14.5
+
+[bell]
+animation = "EaseOutExpo"
+color = "0xffffff"
+duration = 200
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[keyboard.bindings]]
+chars = "\u001B[13;2u"
+key = "Return"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[13;5u"
+key = "Return"
+mods = "Control"
+
+[window]
+decorations = "full"
+dynamic_padding = false
+opacity = 0.95
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 120
+lines = 46
+
+[window.padding]
+x = 0
+y = 0
+
+[window.position]
+x = 2560
+y = 0
